@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-men</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/renponsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="logo-xmen">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um Personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ele possui o poder de disparar rajadas ópticas de pura energia através de seus olhos. Essa energia é proveniente da absorção de raios cósmicos e pode ser controlada com precisão, variando em intensidade e alcance.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey"
+                    data-description="Jean Grey é uma mutante de nível ômega com vastos poderes telepáticos e telecinéticos.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem Jean gray">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra"
+                    data-description="Ela pode tornar seu corpo inteiro ou partes dele intangíveis, permitindo que ela atravesse objetos sólidos">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Lince negra">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto"
+                    data-description="Magneto possui um domínio absoluto sobre o magnetismo, controlando campos magnéticos e manipulando qualquer tipo de metal.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno"
+                    data-description="Noturno possui teletransporte, agilidade sobre-humana e aderência às paredes. Ele também é invisível em sombras profundas e tem uma cauda preênsil. Seus poderes são derivados da dimensão enxofrística.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade"
+                    data-description=" Ela pode gerar tempestades, controlar ventos e raios, e até mesmo alterar a temperatura do ambiente. Sua conexão com a natureza a torna uma força poderosa e versátil, capaz de influenciar o mundo ao seu redor com seus poderes climáticos.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem Tempestagem">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira"
+                    data-description="Ela possui o poder mutante de absorver energia vital, memórias, habilidades e características físicas de outras pessoas através do toque. Essa absorção pode ser temporária ou permanente, dependendo da duração do contato.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine"
+                    data-description="Ele possui um fator de cura incrivelmente poderoso que o permite se recuperar de qualquer ferimento, incluindo regeneração de membros perdidos. Além disso, ele possui garras retráteis de adamantium incrivelmente afiadas e sentidos aguçados, como olfato, visão e audição. ">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele possui o poder de disparar rajadas ópticas de pura energia através de seus olhos. Essa energia é proveniente da absorção de raios cósmicos e pode ser controlada com precisão, variando em intensidade e alcance.</p>
+            </div>
+
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
